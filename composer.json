@@ -1,0 +1,26 @@
+{
+  "name": "suxiongit/php-mq",
+  "description": "PHP 模拟消息队列包",
+  "keywords": [
+    "php message queue",
+    "php 消息队列"
+  ],
+  "license": "MIT",
+  "author": [
+    {
+      "name": "suxiongit",
+      "email": "suxiongit@qq.com",
+      "homepage": "https://github.com/suxiongit",
+      "role": "Master"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "app\\": "src/"
+    }
+  }
+}
