@@ -6,10 +6,10 @@
  * Author: suxiong
  */
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 use app\Queue;
-use app\driver\Job;
+use app\Driver\Job;
 
 try {
     // 队列初始化

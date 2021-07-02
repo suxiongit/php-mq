@@ -22,7 +22,7 @@ PHP 模拟消息队列
 ```
 php-mq
 |--- src
-    |--- driver
+    |--- Driver
         |--- QueueI.php
         |--- MysqlDriver.php
         |--- RedisDriver.php
@@ -50,19 +50,19 @@ php-mq
 
   队列操作类，为生产者和消费者提供一组统一的消息队列操作接口。
 
-- driver/QueueI.php
+- Driver/QueueI.php
 
   队列操作接口，规范为 Queue.php 提供具体服务的驱动类，所有驱动类必须实现此接口，以确保有能力为 Queue.php 提供底层服务。
 
-- driver/MysqlDriver.php
+- Driver/MysqlDriver.php
 
   MySQL 队列操作驱动，负责与 MySQL 的底层操作。
 
-- driver/RedisDriver.php
+- Driver/RedisDriver.php
 
   Redis 队列操作驱动，负责与 Redis 的底层操作。
 
-- dirver/Job.php
+- Driver/Job.php
 
   统一的消息结构（数据格式），就像是面向对象中的接口，使调用方和实现方，都在规范轨迹之内工作。
 

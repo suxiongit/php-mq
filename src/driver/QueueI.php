@@ -6,13 +6,13 @@
  * Author: suxiong
  */
 
-namespace app\driver;
+namespace app\Driver;
 
 interface QueueI
 {
     /**
      * @return array
-     * 查询tubes列表
+     * 查询 tubes 列表
      * 一个系统需要多个队列，它们可能分别用于存储短信、邮件等，它们互相隔离。
      */
     public function tubes(): array;

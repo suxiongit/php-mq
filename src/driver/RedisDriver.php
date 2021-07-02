@@ -6,7 +6,7 @@
  * Author: suxiong
  */
 
-namespace app\driver;
+namespace app\Driver;
 
 class RedisDriver implements QueueI
 {

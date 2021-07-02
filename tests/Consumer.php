@@ -6,7 +6,7 @@
  * Author: suxiong
  */
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 use app\Queue;
 
