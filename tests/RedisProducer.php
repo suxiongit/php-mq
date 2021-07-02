@@ -9,7 +9,7 @@
 require '../vendor/autoload.php';
 
 use app\Queue;
-use app\Driver\Job;
+use app\Drivers\Job;
 
 try {
     // 队列初始化

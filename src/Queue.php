@@ -8,7 +8,7 @@
 
 namespace app;
 
-use app\Driver\Job;
+use app\Drivers\Job;
 
 class Queue
 {

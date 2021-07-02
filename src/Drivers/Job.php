@@ -6,7 +6,7 @@
  * Author: suxiong
  */
 
-namespace app\Driver;
+namespace app\Drivers;
 
 class Job
 {
