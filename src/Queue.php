@@ -21,7 +21,7 @@ class Queue
      */
     public static function init($driver = 'Mysql', $options = []) {
         // 通过变量 new 对象，需写全命名空间
-        $class = "app\\Driver\\{$driver}Driver";
+        $class = "app\\Drivers\\{$driver}Driver";
         self::$driver = new $class($options);
     }
 
